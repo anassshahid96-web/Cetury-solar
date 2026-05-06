@@ -1,0 +1,58 @@
+[
+  {
+    "id": "residential-solar",
+    "category": "Residential",
+    "title": "Residential Solar",
+    "shortDescription": "High-efficiency systems for modern homes.",
+    "longDescription": "Empower your home with independent, renewable energy. We design and install high-efficiency systems optimized for roof layouts, ensuring maximum yield to offset utility costs.",
+    "icon": "solar_power",
+    "highlights": [
+      "3kW to 15kW options",
+      "Tier-1 Mono PERC panels",
+      "Reduced electricity bills"
+    ],
+    "featured": true
+  },
+  {
+    "id": "commercial-industrial",
+    "category": "Commercial",
+    "title": "Commercial & Industrial",
+    "shortDescription": "Large-scale installations with high ROI.",
+    "longDescription": "Engineered for manufacturing and enterprise facilities with predictable operating costs, reliable output, and lower long-term energy exposure.",
+    "icon": "factory",
+    "highlights": [
+      "Load-focused system design",
+      "Energy cost stabilization",
+      "End-to-end EPC delivery"
+    ],
+    "featured": true
+  },
+  {
+    "id": "net-metering",
+    "category": "NetMetering",
+    "title": "Net Metering Services",
+    "shortDescription": "Grid export enablement and compliance.",
+    "longDescription": "We manage NEPRA/LESCO compliance, NOC processing, and bi-directional meter readiness, enabling clean export of surplus energy to the grid.",
+    "icon": "sync_alt",
+    "highlights": [
+      "Documentation and NOC support",
+      "Load management guidance",
+      "Meter installation coordination"
+    ],
+    "featured": false
+  },
+  {
+    "id": "maintenance-cleaning",
+    "category": "Maintenance",
+    "title": "Maintenance & Cleaning",
+    "shortDescription": "Keep production and efficiency at peak.",
+    "longDescription": "Scheduled cleaning, performance monitoring, and preventive service to protect solar assets and sustain maximum output across seasons.",
+    "icon": "cleaning_services",
+    "highlights": [
+      "Panel cleaning schedules",
+      "Inverter and wiring checks",
+      "Yield diagnostics and reporting"
+    ],
+    "featured": false
+  }
+]

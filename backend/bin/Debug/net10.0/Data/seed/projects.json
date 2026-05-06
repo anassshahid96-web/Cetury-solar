@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sundar-150kw-grid-tied",
+    "category": "Commercial",
+    "title": "150kW Grid-Tied System",
+    "location": "Sundar Industrial Estate, Lahore",
+    "capacity": "150kW",
+    "keyBenefit": "Complete daytime load offset",
+    "description": "Commercial rooftop deployment with high-performance modules and synchronized production monitoring. Expected ROI in approximately 3.2 years.",
+    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDTTnlIVvcHiz1Q8pD1lfS22bOfCzp6ENroTrGSYrwJ6QEMtvUFoJP9apsr_9Dq30xB6psfPVCHNnA4NRy4CaAuekFA2TQZlG40Iakzy7zW6dGmkpT72WcimpCdtD4PNjR-U9i2G4x9Ic72_0EHa0a4--dAJbkPmDOa_kextwjxRKVM7JrnU_SJb-_eFBNCkV1SXpC39DpFOU2vetRtkAd9doDolhAcfHjoQZyN_0QuUmhr15ckjQE5dl6OsnPZLppUjkXiD2n7n4Hx",
+    "completedOn": "2025-11-21",
+    "featured": true
+  },
+  {
+    "id": "dha-phase6-15kw-hybrid",
+    "category": "Residential",
+    "title": "15kW Hybrid Setup",
+    "location": "DHA Phase 6, Lahore",
+    "capacity": "15kW",
+    "keyBenefit": "Zero bill plus backup power",
+    "description": "Hybrid residential architecture with battery storage and export balancing designed for uninterrupted household operations.",
+    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCKvCLZ7O8jfOoaEJhpwHZMe9TAt75xS2PshNsuw9JqDpKOnqKqode6jQ7xuDytPnVPBiiloAFF2hU3XKfT7dVEzGbMm-SB1p38WPQDKCzn99pXRuikXMSX58NLyxnLjhmKDdq1zPhp_aqjIBx5RAmkMHefY5lrRrgQy93jIWhcVSwe9LmHrN5by65Y4oWeQScR1WPFXitrqEdyZ5ypyOY5xAPki_NTzycad_TAL3TLcN0hgm5bR6lQ6j9Gjokq2jyQfMQpOKjhomnj",
+    "completedOn": "2025-10-10",
+    "featured": false
+  },
+  {
+    "id": "nawab-town-10kw-on-grid",
+    "category": "Residential",
+    "title": "10kW On-Grid System",
+    "location": "Nawab Town, Lahore",
+    "capacity": "10kW",
+    "keyBenefit": "80% monthly bill reduction",
+    "description": "Roof-constrained optimization with string-level design and net-metering readiness for reliable household savings.",
+    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuADcOo7oxRBjat8CuL0xt0krtPoO6CigTrk5bnJ1fp9Ng-nbqSvPcl2U8TlUOb-kOVpgnAyOOUgzJCxTNQLd4KXcZezCbQ3QKdX_7newkhzX2_ZQ8vmxKYhucJ_nnpW-4b2PUw3O7a6GhvL8IazxZfBFJxMTq_NYCUpVuAbGYAaWuuQ1cNrt1hLot3k8FKYcTWOkbD225xsUP8aYk-wydHwZijW2tRnyJEJAxx_G5kI64wfUd9DS57frEMti8lSL9DFJamWgMMrG07n",
+    "completedOn": "2025-09-12",
+    "featured": false
+  },
+  {
+    "id": "multan-road-500kw-ground-mount",
+    "category": "Commercial",
+    "title": "500kW Ground Mount",
+    "location": "Multan Road Facility",
+    "capacity": "500kW",
+    "keyBenefit": "Energy independence for manufacturing load",
+    "description": "Ground-mounted installation engineered for industrial continuity, output stability, and long-horizon operational resilience.",
+    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCJW9aJFACJwOfFXqfoBoIFNqFQo48J-QgoWvK92PhI07h_5gZ_bq0s847-1va_bMdfuGAifYejKtw_E7NczU4_fycF2Aj6pSrcln73WV0eJThclY8ek3JrNIbrNn-vZGj8OTGzN0Ad7i9SHludK2sgqfUOfUobTwEZX95T7sj7gAE2DwCkCNyCv6YsoRhOngsTaRyd_058eCDxqPX4jr4kfxB1h-gN_VDh_dOfkvVVYQRS9SCgBfc24V06c32F0S0g2GVimb4dckxt",
+    "completedOn": "2025-08-04",
+    "featured": true
+  },
+  {
+    "id": "model-town-8kw-hybrid",
+    "category": "Residential",
+    "title": "8kW Hybrid System",
+    "location": "Model Town, Lahore",
+    "capacity": "8kW",
+    "keyBenefit": "Evening backup with high daytime offset",
+    "description": "Hybrid home deployment with tuned inverter settings and battery support for peak-hour reliability.",
+    "imageUrl": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1400&q=80",
+    "completedOn": "2025-07-15",
+    "featured": false
+  },
+  {
+    "id": "gulberg-120kw-corporate",
+    "category": "Commercial",
+    "title": "120kW Corporate Rooftop",
+    "location": "Gulberg Business District, Lahore",
+    "capacity": "120kW",
+    "keyBenefit": "Lower OPEX and sustainability compliance",
+    "description": "Corporate HQ installation focused on daytime demand shaving and sustainability reporting metrics.",
+    "imageUrl": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1400&q=80",
+    "completedOn": "2025-06-19",
+    "featured": false
+  },
+  {
+    "id": "johar-town-12kw-net-metered",
+    "category": "Residential",
+    "title": "12kW Net-Metered Residence",
+    "location": "Johar Town, Lahore",
+    "capacity": "12kW",
+    "keyBenefit": "Grid export credits with low maintenance profile",
+    "description": "Residential array configured for stable export, anti-islanding compliance, and long-term savings predictability.",
+    "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+    "completedOn": "2025-05-03",
+    "featured": false
+  }
+]
