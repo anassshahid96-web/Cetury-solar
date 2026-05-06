@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About &amp; Contact - Century Solar Solutions</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary-fixed-dim": "#bec6e0",
+                      "on-surface": "#191c1e",
+                      "on-primary-fixed": "#131b2e",
+                      "tertiary-container": "#0d1c2f",
+                      "surface": "#f7f9fb",
+                      "secondary": "#006c49",
+                      "on-secondary-container": "#00714d",
+                      "on-secondary-fixed": "#002113",
+                      "surface-container-highest": "#e0e3e5",
+                      "on-tertiary": "#ffffff",
+                      "background": "#f7f9fb",
+                      "on-primary": "#ffffff",
+                      "surface-container-low": "#f2f4f6",
+                      "tertiary": "#000000",
+                      "outline": "#76777d",
+                      "tertiary-fixed-dim": "#b9c7e0",
+                      "error": "#ba1a1a",
+                      "on-tertiary-container": "#76859b",
+                      "surface-container-high": "#e6e8ea",
+                      "on-tertiary-fixed": "#0d1c2f",
+                      "on-secondary-fixed-variant": "#005236",
+                      "primary": "#000000",
+                      "surface-tint": "#565e74",
+                      "inverse-primary": "#bec6e0",
+                      "on-error-container": "#93000a",
+                      "inverse-surface": "#2d3133",
+                      "on-surface-variant": "#45464d",
+                      "secondary-container": "#6cf8bb",
+                      "secondary-fixed-dim": "#4edea3",
+                      "surface-container-lowest": "#ffffff",
+                      "error-container": "#ffdad6",
+                      "surface-dim": "#d8dadc",
+                      "tertiary-fixed": "#d5e3fd",
+                      "on-primary-fixed-variant": "#3f465c",
+                      "inverse-on-surface": "#eff1f3",
+                      "primary-fixed": "#dae2fd",
+                      "on-tertiary-fixed-variant": "#3a485c",
+                      "on-background": "#191c1e",
+                      "secondary-fixed": "#6ffbbe",
+                      "on-secondary": "#ffffff",
+                      "outline-variant": "#c6c6cd",
+                      "primary-container": "#131b2e",
+                      "on-error": "#ffffff",
+                      "surface-container": "#eceef0",
+                      "surface-bright": "#f7f9fb",
+                      "on-primary-container": "#7c839b",
+                      "surface-variant": "#e0e3e5"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "stack-sm": "8px",
+                      "stack-lg": "48px",
+                      "gutter": "24px",
+                      "margin": "32px",
+                      "stack-md": "24px",
+                      "container-max-width": "1280px",
+                      "unit": "8px"
+              },
+              "fontFamily": {
+                      "headline-lg": ["Inter"],
+                      "label-md": ["Inter"],
+                      "headline-md": ["Inter"],
+                      "body-lg": ["Inter"],
+                      "headline-xl": ["Inter"],
+                      "body-md": ["Inter"]
+              },
+              "fontSize": {
+                      "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                      "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                      "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                      "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "headline-xl": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.filled {
+            font-variation-settings: 'FILL' 1;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md antialiased">
+<!-- TopNavBar Shared Component -->
+<header class="bg-white/95 dark:bg-slate-900/95 backdrop-blur-sm fixed top-0 w-full z-50 border-b border-slate-200 dark:border-slate-800 shadow-sm">
+<div class="flex justify-between items-center h-20 px-8 max-w-7xl mx-auto">
+<div class="text-xl font-black tracking-tighter text-slate-900 dark:text-white">Century Solar</div>
+<nav class="hidden md:flex gap-8 font-sans text-sm font-semibold tracking-wide">
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200" href="index.html">Home</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200" href="services.html">Services</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200" href="projects.html">Projects</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200" href="index.html#quoteForm">Request Quote</a>
+</nav>
+<button class="bg-primary-container text-on-primary text-sm font-semibold tracking-wide px-6 py-3 rounded active:scale-95 transition-transform hover:bg-tertiary-container">
+                Call Now
+            </button>
+</div>
+</header>
+<main class="pt-32 pb-stack-lg max-w-container-max-width mx-auto px-margin space-y-stack-lg">
+<!-- About Section: High-End Bento Grid -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<div class="md:col-span-7 bg-surface-container-lowest border border-outline-variant rounded-xl p-stack-lg flex flex-col justify-center">
+<h1 class="font-headline-xl text-headline-xl text-on-surface mb-stack-sm">Engineering Sustainable Authority in Lahore.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-stack-md">
+                    At Century Solar Solutions, we do not just install panels; we architect high-performance energy infrastructures. Recognized as Lahore's premier experts in solar technology, our methodology relies on precision engineering, uncompromising quality standards, and deep integration with local grid networks.
+                </p>
+<div class="flex gap-4">
+<div class="border-l-2 border-secondary pl-4">
+<p class="font-headline-md text-headline-md text-tertiary-container">500+</p>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Installations</p>
+</div>
+<div class="border-l-2 border-secondary pl-4">
+<p class="font-headline-md text-headline-md text-tertiary-container">99.9%</p>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Uptime Avg</p>
+</div>
+</div>
+</div>
+<div class="md:col-span-5 h-[400px] rounded-xl overflow-hidden border border-outline-variant relative">
+<img alt="Professional Solar Installation" class="w-full h-full object-cover" data-alt="A pristine, high-tech solar panel array installed on a modern flat commercial roof in a clear urban setting. The panels reflect a deep navy and crisp white sky, embodying an industrial-grade precision engineering aesthetic. The lighting is bright and high-contrast, emphasizing the clean lines and geometric perfection of the installation. The mood is highly professional, trustworthy, and technologically advanced, fitting a corporate sustainable energy theme." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuMJWI8jwFNpcofSDMiw_Y6ZtEzR1vWEapgN5cgKFuSzsm4oLSv6_vWgckxTCaheM9wjfGb2EIHh-fIKPTbSs56y3yn6Gaje5iWwk8v9qKXUw9PQp0xzpP1DHnhUDjhKoKWEMynXnf3b_wA5kOsC4AnOo_RdaYCHba4g12VZhLU6q_X2m7AIdHKFJG4OAbKY82FfVKMYvpDXkdL2N4RBe0kAqjD8dinYLxLDiEc1cFBmqZCp8d_Tnt37VQkb4n7nkewlMagC9sHac8"/>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="bg-surface-container-lowest border border-outline-variant rounded-xl p-stack-lg">
+<div class="mb-stack-md">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Technical Briefings</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Frequently addressed operational inquiries.</p>
+</div>
+<div class="space-y-4">
+<!-- FAQ 1 -->
+<div class="border-b border-surface-variant pb-4">
+<div class="flex justify-between items-center cursor-pointer group">
+<h3 class="font-headline-md text-headline-md text-tertiary-container text-lg">How is LESCO net metering processed?</h3>
+<span class="material-symbols-outlined text-outline group-hover:text-tertiary-container transition-colors">add</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+                        We handle the entire end-to-end bureaucratic and technical compliance process with LESCO. From initial load assessment to bi-directional meter installation, our engineers ensure seamless integration, allowing you to export surplus power back to the grid reliably.
+                    </p>
+</div>
+<!-- FAQ 2 -->
+<div class="border-b border-surface-variant pb-4">
+<div class="flex justify-between items-center cursor-pointer group">
+<h3 class="font-headline-md text-headline-md text-tertiary-container text-lg">What are the battery backup specifications?</h3>
+<span class="material-symbols-outlined text-outline group-hover:text-tertiary-container transition-colors">add</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+                        We utilize high-cycle lithium iron phosphate (LiFePO4) energy storage systems designed for industrial longevity. These units provide uninterrupted power switching during grid failures, scaled precisely to your critical load requirements.
+                    </p>
+</div>
+<!-- FAQ 3 -->
+<div class="pt-2">
+<div class="flex justify-between items-center cursor-pointer group">
+<h3 class="font-headline-md text-headline-md text-tertiary-container text-lg">What is the warranty structure on solar panels?</h3>
+<span class="material-symbols-outlined text-outline group-hover:text-tertiary-container transition-colors">add</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+                        Our Tier-1 modules come with a rigorous 25-year linear performance warranty and a 12-year structural defect guarantee. This ensures your infrastructure maintains peak energy generation capacity over its operational lifespan.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Contact & Location Grid -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Contact Info Card -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-stack-md flex flex-col justify-between">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-stack-sm">Command Center</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">Initiate your energy infrastructure upgrade.</p>
+<ul class="space-y-6">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary filled mt-1">location_on</span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface">Headquarters</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">House no 91 A-2, Block A Nawab Town,<br/>Lahore, Pakistan</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary filled mt-1">call</span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface">Direct Line</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">+92 308 6322878</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary filled mt-1">schedule</span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface">Operational Hours</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Mon - Sat: 09:00 AM - 06:00 PM<br/>Sun: Emergency Operations Only</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- Map Card -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-2 h-[500px]">
+<div class="w-full h-full rounded-lg overflow-hidden bg-surface-variant relative">
+<img alt="Map of Lahore Location" class="w-full h-full object-cover grayscale opacity-80 mix-blend-multiply" data-alt="A stylized, high-contrast satellite view or minimalist digital map rendering of the Nawab Town area in Lahore, Pakistan. The map uses a sophisticated palette of slate greys, deep navy blues, and subtle energy green highlights to denote strategic locations. The visual style is highly corporate and precise, resembling a tactical logistics display or an aerospace navigation interface rather than a standard consumer map. It conveys technological mastery and absolute reliability." data-location="Lahore, Pakistan" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxcEojryG98H1oge7raCi8YjLnKe53ltX9W1BGF-4VocG3Fx3Yw6rNyV30eN4NmICqHGYYQV9LE6ZD_BQqgYdIpomY0XdnGiiikS0oa4nU44_1yD9wdxJAYN6Jly_VgdSunskUkYQPwjvTZdPBzNMoqvf1HriTYWYRcUr1OIBkO8GUMF8F5uOa9OhFAOyELb4PfLac5mtBGpdlmCMPudN9-tAX_FmG0GcHxjeaBbC0bz7PAMGrpNT51CX-g4fyNbXrh8PaAHa0V88N"/>
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<div class="bg-surface-container-lowest border border-secondary text-secondary font-label-md text-label-md px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">my_location</span>
+                             Sector A-2 Setup
+                        </div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shared Component -->
+<footer class="bg-slate-900 dark:bg-black w-full pt-16 pb-8 border-t border-slate-800">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div>
+<div class="text-lg font-bold text-white mb-4">Century Solar</div>
+<p class="font-sans text-xs md:text-sm leading-6 text-slate-100">
+                    Â© 2024 Century Solar Solutions. All rights reserved.
+                </p>
+</div>
+<div class="flex flex-col gap-2">
+<a class="font-sans text-xs md:text-sm leading-6 text-slate-400 hover:text-white transition-colors cursor-pointer" href="index.html">Home</a>
+<a class="font-sans text-xs md:text-sm leading-6 text-slate-400 hover:text-white transition-colors cursor-pointer" href="services.html">Services</a>
+<a class="font-sans text-xs md:text-sm leading-6 text-slate-400 hover:text-white transition-colors cursor-pointer" href="projects.html">Projects</a>
+</div>
+<div class="flex flex-col gap-2">
+<a class="font-sans text-xs md:text-sm leading-6 text-slate-400 hover:text-white transition-colors cursor-pointer" href="index.html#quoteForm">Request Quote</a>
+<a class="font-sans text-xs md:text-sm leading-6 text-slate-400 hover:text-white transition-colors cursor-pointer" href="#">Privacy Policy</a>
+<a class="font-sans text-xs md:text-sm leading-6 text-slate-400 hover:text-white transition-colors cursor-pointer" href="#">Terms of Service</a>
+</div>
+<div>
+<!-- Extra column for alignment based on grid-cols-4 -->
+</div>
+</div>
+</footer>
+</body></html>
+

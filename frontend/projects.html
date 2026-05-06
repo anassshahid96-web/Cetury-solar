@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Century Solar - Projects</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed-dim": "#bec6e0",
+                        "on-surface": "#191c1e",
+                        "on-primary-fixed": "#131b2e",
+                        "tertiary-container": "#0d1c2f",
+                        "surface": "#f7f9fb",
+                        "secondary": "#006c49",
+                        "on-secondary-container": "#00714d",
+                        "on-secondary-fixed": "#002113",
+                        "surface-container-highest": "#e0e3e5",
+                        "on-tertiary": "#ffffff",
+                        "background": "#f7f9fb",
+                        "on-primary": "#ffffff",
+                        "surface-container-low": "#f2f4f6",
+                        "tertiary": "#000000",
+                        "outline": "#76777d",
+                        "tertiary-fixed-dim": "#b9c7e0",
+                        "error": "#ba1a1a",
+                        "on-tertiary-container": "#76859b",
+                        "surface-container-high": "#e6e8ea",
+                        "on-tertiary-fixed": "#0d1c2f",
+                        "on-secondary-fixed-variant": "#005236",
+                        "primary": "#000000",
+                        "surface-tint": "#565e74",
+                        "inverse-primary": "#bec6e0",
+                        "on-error-container": "#93000a",
+                        "inverse-surface": "#2d3133",
+                        "on-surface-variant": "#45464d",
+                        "secondary-container": "#6cf8bb",
+                        "secondary-fixed-dim": "#4edea3",
+                        "surface-container-lowest": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "surface-dim": "#d8dadc",
+                        "tertiary-fixed": "#d5e3fd",
+                        "on-primary-fixed-variant": "#3f465c",
+                        "inverse-on-surface": "#eff1f3",
+                        "primary-fixed": "#dae2fd",
+                        "on-tertiary-fixed-variant": "#3a485c",
+                        "on-background": "#191c1e",
+                        "secondary-fixed": "#6ffbbe",
+                        "on-secondary": "#ffffff",
+                        "outline-variant": "#c6c6cd",
+                        "primary-container": "#131b2e",
+                        "on-error": "#ffffff",
+                        "surface-container": "#eceef0",
+                        "surface-bright": "#f7f9fb",
+                        "on-primary-container": "#7c839b",
+                        "surface-variant": "#e0e3e5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-sm": "8px",
+                        "stack-lg": "48px",
+                        "gutter": "24px",
+                        "margin": "32px",
+                        "stack-md": "24px",
+                        "container-max-width": "1280px",
+                        "unit": "8px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Inter"],
+                        "label-md": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-xl": ["Inter"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "label-md": ["14px", { "lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-xl": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur-sm border-b border-slate-200 dark:border-slate-800 shadow-sm">
+<div class="flex justify-between items-center h-20 px-8 max-w-[1280px] mx-auto">
+<div class="text-xl font-black tracking-tighter text-slate-900 dark:text-white">
+                Century Solar
+            </div>
+<div class="hidden md:flex items-center space-x-8 font-sans text-sm font-semibold tracking-wide">
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200 active:scale-95 transition-transform" href="index.html">Home</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200 active:scale-95 transition-transform" href="services.html">Services</a>
+<a class="text-slate-900 dark:text-white border-b-2 border-slate-900 dark:border-white pb-1 hover:text-slate-900 dark:hover:text-white transition-colors duration-200 active:scale-95 transition-transform" href="projects.html">Projects</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200 active:scale-95 transition-transform" href="index.html#quoteForm">Request Quote</a>
+</div>
+<div class="hidden md:block">
+<button class="bg-tertiary-container text-on-tertiary px-6 py-3 rounded hover:bg-opacity-90 transition-colors font-label-md text-label-md">
+                    Call Now
+                </button>
+</div>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-on-surface" data-icon="menu">menu</span>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-[120px] pb-stack-lg max-w-[1280px] mx-auto px-gutter w-full">
+<!-- Page Header -->
+<header class="mb-stack-lg text-center md:text-left">
+<h1 class="font-headline-xl text-headline-xl text-on-surface mb-stack-sm">Installation Portfolio</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Explore our track record of high-performance solar installations across residential and commercial sectors. Precision engineering for optimal yield.</p>
+</header>
+<!-- Projects Bento Grid -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-gutter auto-rows-[400px]">
+<!-- Featured Project (Spans 2 columns on desktop) -->
+<article class="md:col-span-8 group relative bg-surface-container-lowest border border-surface-variant rounded-xl overflow-hidden flex flex-col">
+<div class="absolute inset-0 bg-black/40 z-10 transition-opacity group-hover:bg-black/50"></div>
+<img alt="Commercial Solar Installation" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A sweeping wide-angle shot of a massive commercial solar panel array installed on the flat white roof of a modern industrial warehouse. The panels are perfectly aligned in a rigid grid, gleaming under a clear blue midday sky. The high-contrast, professional lighting emphasizes the architectural precision and technological sophistication of the sustainable energy setup." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTTnlIVvcHiz1Q8pD1lfS22bOfCzp6ENroTrGSYrwJ6QEMtvUFoJP9apsr_9Dq30xB6psfPVCHNnA4NRy4CaAuekFA2TQZlG40Iakzy7zW6dGmkpT72WcimpCdtD4PNjR-U9i2G4x9Ic72_0EHa0a4--dAJbkPmDOa_kextwjxRKVM7JrnU_SJb-_eFBNCkV1SXpC39DpFOU2vetRtkAd9doDolhAcfHjoQZyN_0QuUmhr15ckjQE5dl6OsnPZLppUjkXiD2n7n4Hx"/>
+<div class="relative z-20 mt-auto p-stack-md text-on-primary bg-gradient-to-t from-black/80 to-transparent">
+<div class="flex items-center space-x-4 mb-2">
+<span class="bg-secondary text-on-secondary px-3 py-1 rounded-sm font-label-md text-label-md uppercase tracking-wider text-xs">Commercial</span>
+<span class="flex items-center font-label-md text-label-md text-surface-container-high"><span class="material-symbols-outlined mr-1 text-[18px]" data-icon="location_on">location_on</span> Sundar Industrial Estate, Lahore</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg mb-2">150kW Grid-Tied System</h2>
+<p class="font-body-md text-body-md text-surface-container-highest max-w-xl">Complete offset of factory daytime load. Expected ROI in 3.2 years.</p>
+</div>
+</article>
+<!-- Regular Project -->
+<article class="md:col-span-4 bg-surface-container-lowest border border-surface-variant rounded-xl overflow-hidden flex flex-col hover:border-outline transition-colors">
+<div class="h-1/2 relative overflow-hidden">
+<img alt="Residential Solar Installation" class="absolute inset-0 w-full h-full object-cover" data-alt="A close-up, high-angle view of sleek, modern black solar panels mounted on the red terracotta tiled roof of a premium residential home. The lighting is bright and clear, highlighting the clean lines of the panels against the traditional roof structure. The aesthetic conveys reliable, high-end residential energy solutions." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKvCLZ7O8jfOoaEJhpwHZMe9TAt75xS2PshNsuw9JqDpKOnqKqode6jQ7xuDytPnVPBiiloAFF2hU3XKfT7dVEzGbMm-SB1p38WPQDKCzn99pXRuikXMSX58NLyxnLjhmKDdq1zPhp_aqjIBx5RAmkMHefY5lrRrgQy93jIWhcVSwe9LmHrN5by65Y4oWeQScR1WPFXitrqEdyZ5ypyOY5xAPki_NTzycad_TAL3TLcN0hgm5bR6lQ6j9Gjokq2jyQfMQpOKjhomnj"/>
+</div>
+<div class="p-stack-md flex-grow flex flex-col">
+<div class="flex justify-between items-start mb-4">
+<span class="bg-surface-container-highest text-on-surface px-2 py-1 rounded font-label-md text-label-md text-xs">Residential</span>
+<span class="flex items-center font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined mr-1 text-[16px]" data-icon="home_pin">home_pin</span> DHA Phase 6</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">15kW Hybrid Setup</h3>
+<div class="mt-auto space-y-2">
+<div class="flex justify-between border-b border-surface-variant pb-2">
+<span class="font-body-md text-body-md text-on-surface-variant">Key Benefit</span>
+<span class="font-label-md text-label-md text-secondary">Zero Bill + Backup</span>
+</div>
+</div>
+</div>
+</article>
+<!-- Regular Project -->
+<article class="md:col-span-4 bg-surface-container-lowest border border-surface-variant rounded-xl overflow-hidden flex flex-col hover:border-outline transition-colors">
+<div class="h-1/2 relative overflow-hidden">
+<img alt="Residential Solar Detail" class="absolute inset-0 w-full h-full object-cover" data-alt="A focused shot on the advanced inverter and battery storage system mounted cleanly on a white garage wall in a residential setting. The equipment is modern, metallic, and perfectly cabled, emphasizing precision engineering. The lighting is neutral and bright, conveying a clinical, high-tech approach to home energy management." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADcOo7oxRBjat8CuL0xt0krtPoO6CigTrk5bnJ1fp9Ng-nbqSvPcl2U8TlUOb-kOVpgnAyOOUgzJCxTNQLd4KXcZezCbQ3QKdX_7newkhzX2_ZQ8vmxKYhucJ_nnpW-4b2PUw3O7a6GhvL8IazxZfBFJxMTq_NYCUpVuAbGYAaWuuQ1cNrt1hLot3k8FKYcTWOkbD225xsUP8aYk-wydHwZijW2tRnyJEJAxx_G5kI64wfUd9DS57frEMti8lSL9DFJamWgMMrG07n"/>
+</div>
+<div class="p-stack-md flex-grow flex flex-col">
+<div class="flex justify-between items-start mb-4">
+<span class="bg-surface-container-highest text-on-surface px-2 py-1 rounded font-label-md text-label-md text-xs">Residential</span>
+<span class="flex items-center font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined mr-1 text-[16px]" data-icon="home_pin">home_pin</span> Nawab Town</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">10kW On-Grid System</h3>
+<div class="mt-auto space-y-2">
+<div class="flex justify-between border-b border-surface-variant pb-2">
+<span class="font-body-md text-body-md text-on-surface-variant">Key Benefit</span>
+<span class="font-label-md text-label-md text-secondary">80% Bill Reduction</span>
+</div>
+</div>
+</div>
+</article>
+<!-- Regular Project -->
+<article class="md:col-span-8 bg-surface-container-lowest border border-surface-variant rounded-xl overflow-hidden flex flex-col hover:border-outline transition-colors relative group">
+<div class="absolute inset-0 z-0">
+<img alt="Solar Farm Setup" class="w-full h-full object-cover opacity-90 transition-transform duration-500 group-hover:scale-105" data-alt="An expansive view of a large-scale ground-mounted solar farm in a clear, arid landscape. Rows upon rows of dark blue solar panels stretch towards the horizon under a bright, cloudless sky. The composition is highly structured and geometric, reflecting an industrial-scale energy solution with a pristine, corporate aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJW9aJFACJwOfFXqfoBoIFNqFQo48J-QgoWvK92PhI07h_5gZ_bq0s847-1va_bMdfuGAifYejKtw_E7NczU4_fycF2Aj6pSrcln73WV0eJThclY8ek3JrNIbrNn-vZGj8OTGzN0Ad7i9SHludK2sgqfUOfUobTwEZX95T7sj7gAE2DwCkCNyCv6YsoRhOngsTaRyd_058eCDxqPX4jr4kfxB1h-gN_VDh_dOfkvVVYQRS9SCgBfc24V06c32F0S0g2GVimb4dckxt"/>
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-on-surface/90 to-on-surface/20 z-10"></div>
+<div class="relative z-20 p-stack-md flex-grow flex flex-col justify-center w-full md:w-1/2">
+<div class="flex items-center space-x-4 mb-4">
+<span class="bg-surface-container-highest text-on-surface px-2 py-1 rounded font-label-md text-label-md text-xs">Commercial</span>
+<span class="flex items-center font-label-md text-label-md text-surface-container-highest"><span class="material-symbols-outlined mr-1 text-[16px]" data-icon="location_on">location_on</span> Multan Road Facility</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-primary mb-4">500kW Ground Mount</h3>
+<p class="font-body-md text-body-md text-surface-container-high mb-6">A massive ground-mounted array designed for a manufacturing plant, delivering industrial-grade reliability.</p>
+<div class="bg-white/10 backdrop-blur-md p-4 rounded border border-white/20">
+<div class="flex justify-between items-center">
+<span class="font-body-md text-body-md text-surface-container-highest">Key Benefit</span>
+<span class="font-label-md text-label-md text-secondary-container">Energy Independence</span>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div class="mt-stack-lg flex justify-center">
+<button class="px-8 py-3 border-2 border-on-surface text-on-surface font-label-md text-label-md rounded hover:bg-surface-variant transition-colors flex items-center">
+                Load More Projects
+                <span class="material-symbols-outlined ml-2" data-icon="expand_more">expand_more</span>
+</button>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full pt-16 pb-8 bg-slate-900 dark:bg-black border-t border-slate-800 mt-auto">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-12 font-sans text-xs md:text-sm leading-6">
+<div>
+<div class="text-lg font-bold text-white mb-4">Century Solar</div>
+<p class="text-slate-400">Â© 2024 Century Solar Solutions. All rights reserved.</p>
+</div>
+<div class="flex flex-col space-y-2">
+<a class="text-slate-400 hover:text-white transition-colors cursor-pointer" href="index.html">Home</a>
+<a class="text-slate-400 hover:text-white transition-colors cursor-pointer" href="services.html">Services</a>
+<a class="text-white font-bold hover:text-white transition-colors cursor-pointer" href="projects.html">Projects</a>
+</div>
+<div class="flex flex-col space-y-2">
+<a class="text-slate-400 hover:text-white transition-colors cursor-pointer" href="index.html#quoteForm">Request Quote</a>
+<a class="text-slate-400 hover:text-white transition-colors cursor-pointer" href="#">Privacy Policy</a>
+<a class="text-slate-400 hover:text-white transition-colors cursor-pointer" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</body></html>
+
